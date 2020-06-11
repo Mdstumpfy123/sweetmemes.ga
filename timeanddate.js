@@ -11,8 +11,7 @@ function formatAMPM() {
 }
 
 while true {
-    document.getElementById("timedate").innerHTML = formatAMPM();
     setTimeout(function(){
-        console.log("Pausing for 1 second...");
+        document.getElementById("timedate").innerHTML = formatAMPM();
     }, 1000);
 }
